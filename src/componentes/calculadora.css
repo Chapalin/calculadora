@@ -1,0 +1,88 @@
+button{
+    width:3em;
+    height:3em;
+    font-size:1.2em;
+    border: none;
+    border-radius:3em;
+    margin: 0.3em;
+    font-family: cursive fixed;
+    
+   
+}
+
+button:hover{
+    cursor: pointer;
+}
+ 
+.base{
+    display:flex;
+    background-color: black;
+    border-radius: 1em;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.ultima-linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.botao-duplo {
+    width:50%;
+}
+
+.botao-zero{
+    width:91%;
+    background-color: white;
+}
+
+/* .telav{
+    height:50px;
+    width:90%;
+    border-radius: 1em;
+    border-color: antiquewhite;
+    
+} */
+.visor {
+    margin-block-end: 20px;
+    /* background-color:red; */
+    height: 19px;
+    margin-right: 24px;
+    margin-left: 24px;
+    max-width: 100%;
+    font-size:27px;
+    max-height: 25px;
+    /* background-color:red */
+    
+}
+.cldpaulo{
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    
+}
+.cinza{
+    background-color: #D4D4D2;
+    color: #1C1C1C;
+}
+.laranja{
+    background-color: #FF9500;
+    color: white;
+}
+.darkk{
+    background-color: #505050;
+    color: white;
+}
+
+.resultado{
+    color : white;
+    display:flex;
+    justify-content: flex-end;
+    margin: 1px;
+    
+}
